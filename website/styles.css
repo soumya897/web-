@@ -1,0 +1,161 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  nav .logo {
+    color: #11a3bc;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #0658ef;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Home Section */
+  .home {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 22px;
+  }
+  
+  /* About Section */
+  .about {
+    background-color: #62e89e;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* pictures Section */
+  
+  .pictures {
+    background-color: #08dd84;
+    padding: 60px 0;
+    text-align: center;
+    front-size:20px;
+  
+  }
+  
+  .pictures h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .picture-item {
+    margin-bottom: 40px;
+  }
+  
+  .picture-item img {
+    width: auto;
+    max-width: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .picture-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .picture-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact ul li {
+    margin-bottom: 10px;
+  }
+  
+  .contact ul li a {
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .contact ul li a:hover {
+    color: #4CAF50;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size:larger ;
+  }
